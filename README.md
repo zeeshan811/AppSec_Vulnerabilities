@@ -1,14 +1,14 @@
 # AppSec_Vulnerabilities
 
 The repository provides definition, explanation, attack patterns, examples of applications security vulnerabities.
-This is a live document and I will keep updating it when I get time and whenever i increase my knowledge and get to know new attack
+This is a live document and I will keep updating it when I get time and whenever I increase my knowledge and get to know new attack
 patterns and new type of vulnerabilities. The guide covers all of https://owasp.org/www-project-top-ten/ and far beyond that. 
 I have used portswigger academy, owasp top 10, medium articles, personal research, personal exploit development, my experience and testing as
 a guide to create this document. 
 
 ## Mass Assignment 
-Mass assignment vulnerabilities occurs when an attacker/user can change internal objects fields value that they are not authorized to perform, because
-week security settings. 
+Mass assignment vulnerabilities occurs when an attacker/user can change internal object fields value that they are not authorized to perform, because
+of weak security settings. 
 
 ### Detecting the vulnerability in run time application
 
