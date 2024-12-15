@@ -97,8 +97,18 @@ Step2: When you see direct mappings, ask:
 Another important consideration is to understand properties of the object and understanding whether all properties are meant to be controlled by the user is a critical step.
 If all properties must not be controlled by the user then this is potential a vulnerability, if user should control all properties of the object then this is an expected functionality.
 
-Potential Vulnerability: If the developer confirms that not all properties are user-controlled, you need to check:
+**Potential Vulnerability:** 
+
+If the developer confirms that not all properties are user-controlled, you need to check:
 Which fields are sensitive or internal-only?
-Example fields: isAdmin, user_role, account_balance, status, id.
+
+Example fields: 
+
+- isAdmin
+- user_role
+- account_balance
+- status
+- id
+
 Whether there is a mechanism to filter out these sensitive fields.
 
